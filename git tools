@@ -1,1 +1,2 @@
 new ssh key => ssh-keygen -t rsa -b 4096 -C "new_email@example.com"
+new ssh key location => C:\Users\(user)\.ssh\*.pub
