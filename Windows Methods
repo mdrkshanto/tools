@@ -1,0 +1,4 @@
+Change Network Name
+=============================
+Method 1 => Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkList\Profiles\{66CA459F-1F15-41C7-871A-3A213DF59AF6}
+Method 2 => Search -> Local Security Policy -> Network List Manager Policies -> locate the network whose name to change
