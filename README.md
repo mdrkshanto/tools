@@ -9,10 +9,10 @@ Generate SSH Key: ssh-keygen
 
 <h4>Installaion steps of valet Linux Plus</h4>
 <p>
-step 1
+<b>step 1</b>
   
 ```
-  sudo apt-get install curl libnss3-tools jq xsel openssl ca-certificates
+sudo apt-get install curl libnss3-tools jq xsel openssl ca-certificates
 ```
 
 </p>
