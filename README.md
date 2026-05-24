@@ -10,9 +10,9 @@ Generate SSH Key: ssh-keygen
 <h4>Installaion steps of valet Linux Plus</h4>
 <p>
 step 1
-``
+```
   sudo apt-get install curl libnss3-tools jq xsel openssl ca-certificates
-``
+```
 </p>
 # step 2
 sudo add-apt-repository ppa:ondrej/php
