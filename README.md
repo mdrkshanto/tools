@@ -62,6 +62,52 @@ valet install
 <b>step 8</b>
 
 ```
+sudo mysql -u root
+```
+</p>
+
+<p>
+<b>step 9</b>
+
+```
+ALTER USER 'valet'@'localhost' IDENTIFIED WITH caching_sha2_password BY 'YourStrongPassword';
+```
+
+or
+
+```
+CREATE USER 'valet'@'localhost' IDENTIFIED WITH caching_sha2_password BY 'YourStrongPassword';
+```
+</p>
+
+<p>
+<b>step 10</b>
+
+```
+GRANT ALL PRIVILEGES ON *.* TO 'valet'@'localhost' WITH GRANT OPTION;
+```
+</p>
+
+<p>
+<b>step 11</b>
+
+```
+FLUSH PRIVILEGES;
+```
+</p>
+
+<p>
+<b>step 12</b>
+
+```
+EXIT;
+```
+</p>
+
+<p>
+<b>step 13</b>
+
+```
 composer create-project phpmyadmin/phpmyadmin
 ```
 </p>
