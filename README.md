@@ -11,9 +11,9 @@ Generate SSH Key: ssh-keygen
 <p>
 step 1
   
-``
+```
   sudo apt-get install curl libnss3-tools jq xsel openssl ca-certificates
-``
+```
 
 </p>
 # step 2
