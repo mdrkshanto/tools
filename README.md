@@ -9,30 +9,59 @@ Generate SSH Key: ssh-keygen
 
 <h4>Installaion steps of valet Linux Plus</h4>
 <p>
-<b>step 1</b>
-  
+<b>Step 1</b>
+
 ```
 sudo apt-get install curl libnss3-tools jq xsel openssl ca-certificates
 ```
-
 </p>
-# step 2
+
+<p>
+<b>Step 2</b>
+  
+```
 sudo add-apt-repository ppa:ondrej/php
+```
+</p>
 
-# step 3
+<p>
+<b>Step 3</b>
+
+```
 sudo apt-get install php*-cli php*-curl php*-mbstring php*-xml php*-zip php*-posix php*-mcrypt php*-sqlite3 php*-mysql php*-pgsql
+```
+</p>
 
-# step 4
+<p>
+<b>Step 4</b>
 Add composer & node js
+</p>
 
-# step 5
+<p>
+<b>Step 5</b>
+
+```
 composer global require genesisweb/valet-linux-plus
+```
+</p>
 
-# step 6
+<p>
+<b>Step 6</b>
 add `export PATH="$PATH:$HOME/.config/composer/vendor/bin"` to `~/.bashrc`
+</p>
 
-# step 7
+<p>
+<b>Step 7</b>
+
+```
 valet install
+```
+</p>
 
-# step 8
+<p>
+<b>step 8</b>
+
+```
 composer create-project phpmyadmin/phpmyadmin
+```
+</p>
