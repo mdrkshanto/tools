@@ -111,3 +111,17 @@ EXIT;
 composer create-project phpmyadmin/phpmyadmin
 ```
 </p>
+<hr>
+
+<h3>Mailpit connection</h3>
+<p>
+
+```
+MAIL_MAILER=smtp
+MAIL_HOST=127.0.0.1
+MAIL_PORT=1025
+MAIL_USERNAME=
+MAIL_PASSWORD=
+MAIL_ENCRYPTION=
+```
+</p>
