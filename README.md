@@ -125,3 +125,24 @@ MAIL_PASSWORD=
 MAIL_ENCRYPTION=
 ```
 </p>
+
+# For AI
+<h3>Opencode AI CLI for project instruction</h3>
+<p>
+  <b>Step 1</b>
+  Create `instructions.md` file in your project root directory and write your project instructions here.
+</p>
+<p>
+  <b>Step 2</b>
+  Open or create opencode.json in a text editor.
+</p>
+<p>
+  <b>Step 3</b>
+  
+  ```json
+  {
+        "system_prompt_file": "./instructions.md"
+    }
+  ```
+use this line in opencode.json
+</p>
