@@ -109,3 +109,4 @@ Help me to Optimize this prompt
 
 আমি বাচ্চাদের জন্য অ্যানিমেশন ভিডিও বানাতে চাচ্ছি, আমার টার্গেট অডিয়েন্স হল আমেরিকা এবং থ্রিডি স্টাইলে ভিডিওগুলো হবে। তুমি কি আমাকে এই বিষয়ে হেল্প করতে পারবে?
 
+[Referance](https://docs.google.com/document/d/13LZfJUUg6ETjpwuDm2a6fSMhbcEgrYYj3jp91zi12_4/edit?tab=t.0)
